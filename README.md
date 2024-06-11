@@ -1,6 +1,7 @@
 Souris
 Projet Souris - Lauréat ANCT
 # Une souris adaptée pour personnes en situation de handicap
+![souris_AMI](https://github.com/FabLabUtoPi/Souris/assets/172394416/6b358368-5b6c-40fc-a2e8-d84d5bd7ac80)
 ## A l’origine du projet 
 Un ami aveugle de naissance réalise des podcasts. Il se plaint de l’utilisation d’une souris « classique » car parfois lorsqu’il pense déplacer la souris horizontalement pour sélectionner un mot, il la déplace en diagonale et sélectionne plusieurs mots, plusieurs lignes. Il existe des souris adaptée mais leur prix est hors de sa portée car les aides ne couvrent pas la dépense à engager.
 Le projet d’une souris adaptée est proposé au FabLab et accepté.
