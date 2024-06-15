@@ -64,7 +64,7 @@ La LED est connectée aux bornes 5 (anode) et 6 (cathode). Il conviendra d’ajo
 Le câblage des boutons poussoirs et des LEDs est ici représenté vu de dessous. Sur la plaque prototype, des fils ont été soudés et relient les différents éléments (voir photo)
 
 ### Câblage du joystick
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/cablage_joystick.jpg" width="700" height="300" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/cablage_joystick.jpg" width="820" height="800" />
 
 
 
