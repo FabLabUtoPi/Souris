@@ -34,3 +34,12 @@ Une action lors de la connexion de la souris (appui sur touche ou combinaison de
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/buzzer.jpg" width="150" height="168" />
 Un retour auditif (sous forme de clic ou de bip) est envisagé avec la présence d’un buzzer activé par une des sorties du Raspberry Pi PICO. 
 Une action lors de la connexion de la souris (appui sur touche ou combinaison de touches) permettra de dévalider l’utilisation du retour auditif.
+
+#### Sortie du programme
+La programmation du Raspberry Pi PICO se fait via la connexion USB. Une combinaison touche/joystick sera prévue pour arrêter le programme et donner accès au microcontrôleur pour pouvoir modifier le programme.
+Combinaison prévue : Touche centrale + touche la plus à droite + joystick en BAS. Si cette combinaison est activée en cours de programme, le programme allume les LEDs des 5 touches, envoie sur le port console un message d’avertissement, puis s’arrête. Cela permet au développeur de reprendre la main pour apporter plus facilement des modifications. Sur les modèles définitifs cette fonction pourra être dévalidé.
+
+## Réalisation technique
+### Brochage du Raspberry Pi PICO
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/pinout_PICO.jpg" width="150" height="168" />
+
