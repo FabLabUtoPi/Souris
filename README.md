@@ -46,7 +46,7 @@ Le Raspberry Pi PICO expose ses Entrées/Sorties GPIO comme ci-dessus. Le choix 
 La partie droite comporte une dizaine de GPIO supplémentaires, dont des possibilités d’Entrée Analogique qui pourront éventuellement être utilisées pour des développements futurs.
 
 ### Schéma global de la souris adaptée
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/schema_global.jpg" width="550" height="400" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/schema_global.jpg" width="825" height="600" />
 
 
 Le schéma montre la connexion des LEDs (GP0 à GP4), des 5 boutons poussoirs (GP5 à GP9) et du joystick (GP10 à GP13). 
