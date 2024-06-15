@@ -47,3 +47,19 @@ La partie droite comporte une dizaine de GPIO supplémentaires, dont des possibi
 
 ### Schéma global de la souris adaptée
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/schema_global.jpg" width="1100" height="750" />
+Le schéma montre la connexion des LEDs (GP0 à GP4), des 5 boutons poussoirs (GP5 à GP9) et du joystick (GP10 à GP13). 
+Le vibreur est connecté à la sortie GP14, et le buzzer à la sortie GP15.
+La sortie GP15 active le vibreur. La diode anti retour aux bornes du moteur est nécessaire avec le moteur utilisé.
+
+### Plaque support des boutons poussoirs
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/plaque_8x2cm.jpg" width="670" height="189" />
+La plaque support des boutons poussoirs choisie est un modèle de carte prototype double face universel. Pour la version définitive on pourra envisager la fabrication d’un PCB (circuit imprimé) sur mesure et plus adapté. Mais pour le prototype, cette solution était la plus rapidement mise en œuvre.
+
+### Câblage des Boutons poussoirs
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/schema_global.jpg" width="1150" height="800" />
+Les boutons poussoirs sont documentés ci-dessus. En position repos, les broches 1 et 3 sont reliées (position NF = Normalement Fermé). Quand on appuie sur le bouton poussoir 1-3 s’ouvre et 1-2 se ferme (NO = Normalement ouvert).
+La LED est connectée aux bornes 5 (anode) et 6 (cathode). Il conviendra d’ajouter une résistance en  série avec la LED pour protéger la sortie du Raspberry Pi PICO. Cette résistance vaudra au minimum 220 Ω, une valeur supérieure réduira la luminosité de la LED.
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/cablage BP.jpg" width="1150" height="800" />
+
+
+
