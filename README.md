@@ -20,7 +20,7 @@ Pour limiter les déplacements aux directions HAUT, BAS, DROITE et GAUCHE, le ch
 Si l’utilisateur déplace le joystick en diagonale (volontairement ou par inadvertance), il sera averti par un vibreur intégré à la souris, qui fournit un retour haptique.
 
 #### Boutons additionnels
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/snapshot_07.jpg" width="200" height="168" />
+<p align="center"><img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/snapshot_07.jpg" width="200" height="168" /></p>
 Lorsque le joystick sera maintenu en position un certain temps (programmable), le curseur sur l’écran se déplacera automatiquement dans la direction choisie. 
 Boutons additionnels
 La souris sera dotée de 5 boutons placés devant le joystick. Selon les retours d’expérience, ce nombre pourra être modifié ainsi que les emplacements. Les fonctions retenues pour ces boutons sont : Clic gauche, clic droit, appel d’un logiciel (programmable, par défaut NVDA), roulette UP, roulette DOWN.
@@ -28,12 +28,11 @@ La souris sera dotée de 5 boutons placés devant le joystick. Selon les retours
 #### Le retour haptique
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/vibreur.jpg" width="200" height="168" />
 Pour assurer un retour haptique (tactile), la souris sera munie d’un vibreur. C’est un moteur miniature qui entraîne une masselotte excentrée et produit des vibrations. Ce genre de vibreur équipe les tablettes et les smartphones. Le vibreur pourra signaler des actions comme le déplacement en diagonale, confirmer l’activation d’une touche…
-Une action lors de la connexion de la souris (appui sur touche ou combinaison de touches) permettra de dévalider l’utilisation du retour haptique.  \\\
-
+Une action lors de la connexion de la souris (appui sur touche ou combinaison de touches) permettra de dévalider l’utilisation du retour haptique.  
 #### Retour auditif
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/buzzer.jpg" width="150" height="168" />
 Un retour auditif (sous forme de clic ou de bip) est envisagé avec la présence d’un buzzer activé par une des sorties du Raspberry Pi PICO. 
-Une action lors de la connexion de la souris (appui sur touche ou combinaison de touches) permettra de dévalider l’utilisation du retour auditif.  \\\
+Une action lors de la connexion de la souris (appui sur touche ou combinaison de touches) permettra de dévalider l’utilisation du retour auditif.  
 
 #### Sortie du programme
 La programmation du Raspberry Pi PICO se fait via la connexion USB. Une combinaison touche/joystick sera prévue pour arrêter le programme et donner accès au microcontrôleur pour pouvoir modifier le programme.
@@ -41,7 +40,7 @@ Combinaison prévue : Touche centrale + touche la plus à droite + joystick en 
 
 ## Réalisation technique
 ### Brochage du Raspberry Pi PICO
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/pinout_PICO.jpg" width="650" height="350" />  \\\
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/pinout_PICO.jpg" width="650" height="350" />  
 Le Raspberry Pi PICO expose ses Entrées/Sorties GPIO comme ci-dessus. Le choix a été fait d’utiliser la partie gauche de la carte pour connecter les différents matériels utilisés (switch, LEDs, vibreur et buzzer). Les bornes de masse (GND) intercalées permettent de connecter la masse aux endroits souhaités.
 La partie droite comporte une dizaine de GPIO supplémentaires, dont des possibilités d’Entrée Analogique qui pourront éventuellement être utilisées pour des développements futurs.\\\
 
