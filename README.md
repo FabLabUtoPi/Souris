@@ -63,7 +63,7 @@ La plaque support des boutons poussoirs choisie est un modèle de carte prototyp
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/Switch.png" width="1150" height="800" />
 Les boutons poussoirs sont documentés ci-dessus. En position repos, les broches 1 et 3 sont reliées (position NF = Normalement Fermé). Quand on appuie sur le bouton poussoir 1-3 s’ouvre et 1-2 se ferme (NO = Normalement ouvert).
 La LED est connectée aux bornes 5 (anode) et 6 (cathode). Il conviendra d’ajouter une résistance en  série avec la LED pour protéger la sortie du Raspberry Pi PICO. Cette résistance vaudra au minimum 220 Ω, une valeur supérieure réduira la luminosité de la LED.
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/connexion_BP.jpg" width="700" height="300" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/connexion_BP.jpg" width="1050" height="450" />
 
 Le câblage des boutons poussoirs et des LEDs est ici représenté vu de dessous. Sur la plaque prototype, des fils ont été soudés et relient les différents éléments (voir photo)
 
