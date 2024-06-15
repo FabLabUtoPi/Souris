@@ -41,19 +41,16 @@ Combinaison prévue : Touche centrale + touche la plus à droite + joystick en 
 
 ## Réalisation technique
 ### Brochage du Raspberry Pi PICO
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/pinout_PICO.jpg" width="650" height="350" />  
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/pinout_PICO.jpg" width="1050" height="560" />  
 Le Raspberry Pi PICO expose ses Entrées/Sorties GPIO comme ci-dessus. Le choix a été fait d’utiliser la partie gauche de la carte pour connecter les différents matériels utilisés (switch, LEDs, vibreur et buzzer). Les bornes de masse (GND) intercalées permettent de connecter la masse aux endroits souhaités.
 La partie droite comporte une dizaine de GPIO supplémentaires, dont des possibilités d’Entrée Analogique qui pourront éventuellement être utilisées pour des développements futurs.\\\
 
 ### Schéma global de la souris adaptée
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/schema_global.jpg" width="825" height="600" />
 
-
 Le schéma montre la connexion des LEDs (GP0 à GP4), des 5 boutons poussoirs (GP5 à GP9) et du joystick (GP10 à GP13). 
 Le vibreur est connecté à la sortie GP14, et le buzzer à la sortie GP15.
 La sortie GP15 active le vibreur. La diode anti retour aux bornes du moteur est nécessaire avec le moteur utilisé.
-
-
 
 ### Plaque support des boutons poussoirs
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/plaque_8x2cm.jpg" width="670" height="189" />
