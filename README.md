@@ -41,5 +41,5 @@ Combinaison prévue : Touche centrale + touche la plus à droite + joystick en 
 
 ## Réalisation technique
 ### Brochage du Raspberry Pi PICO
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/pinout_PICO.jpg" width="150" height="168" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/pinout_PICO.jpg" width="1294" height="825" />
 
