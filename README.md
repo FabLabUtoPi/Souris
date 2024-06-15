@@ -1,5 +1,4 @@
-Souris
-Projet Souris - Lauréat ANCT
+Souris - Projet Souris - Lauréat ANCT
 # Une souris adaptée pour personnes en situation de handicap
 ![souris_AMI](https://github.com/FabLabUtoPi/Souris/assets/172394416/6b358368-5b6c-40fc-a2e8-d84d5bd7ac80)
 ## A l’origine du projet 
@@ -46,7 +45,7 @@ Le Raspberry Pi PICO expose ses Entrées/Sorties GPIO comme ci-dessus. Le choix 
 La partie droite comporte une dizaine de GPIO supplémentaires, dont des possibilités d’Entrée Analogique qui pourront éventuellement être utilisées pour des développements futurs.\\\
 
 ### Schéma global de la souris adaptée
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/schema_global.jpg" width="825" height="600" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/schema_global.jpg" width="1050" height="760" />
 
 Le schéma montre la connexion des LEDs (GP0 à GP4), des 5 boutons poussoirs (GP5 à GP9) et du joystick (GP10 à GP13). 
 Le vibreur est connecté à la sortie GP14, et le buzzer à la sortie GP15.
