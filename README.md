@@ -56,7 +56,7 @@ La sortie GP15 active le vibreur. La diode anti retour aux bornes du moteur est 
 La plaque support des boutons poussoirs choisie est un modèle de carte prototype double face universel. Pour la version définitive on pourra envisager la fabrication d’un PCB (circuit imprimé) sur mesure et plus adapté. Mais pour le prototype, cette solution était la plus rapidement mise en œuvre.
 
 ### Câblage des Boutons poussoirs
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/Switch.png" width="1150" height="800" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/Switch.png" width="1150" height="700" />
 Les boutons poussoirs sont documentés ci-dessus. En position repos, les broches 1 et 3 sont reliées (position NF = Normalement Fermé). Quand on appuie sur le bouton poussoir 1-3 s’ouvre et 1-2 se ferme (NO = Normalement ouvert).
 La LED est connectée aux bornes 5 (anode) et 6 (cathode). Il conviendra d’ajouter une résistance en  série avec la LED pour protéger la sortie du Raspberry Pi PICO. Cette résistance vaudra au minimum 220 Ω, une valeur supérieure réduira la luminosité de la LED.
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/connexion_BP.jpg" width="1050" height="450" />
@@ -70,11 +70,12 @@ Nota : En fonction de la position de montage du joystick, il faudra éventuelle
 Le câblage du joystick ne pose pas de problème particulier. Lorsque l’utilisateur pousse le manche du joystick dans une direction, le switch concerné établit un contact entre les bornes COM et NO.  
 
 ### Connexion du vibreur au Raspberry Pi PICO
-<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/Mod%C3%A8les_3D/souris_04.jpg" width="1000" height="390" />
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/connexion_vibreur.jpg" width="1000" height="390" />  
 La sortie GP14 du Raspberry Pi PICO ne peut pas fournir le courant nécessaire pour actionner le moteur du vibreur (~ 200 mA max.). Un transistor 2N222 ou équivalent reçoit le signal et commande le vibreur.
 
 # Modélisation 3D du boîtier de la souris
-<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/connexion_vibreur.jpg" width="1000" height="390" />  
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/Mod%C3%A8les_3D/souris_04.jpg" width="1000" height="390" />  
+
 La modélisation a été faite avec Fusion 360. Les fichiers sont disponibles dans le dossier Modèles_3D
 
 # Logiciel de Gestion de la souris
