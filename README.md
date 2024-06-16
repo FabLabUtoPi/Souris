@@ -74,7 +74,7 @@ Le câblage du joystick ne pose pas de problème particulier. Lorsque l’utilis
 La sortie GP14 du Raspberry Pi PICO ne peut pas fournir le courant nécessaire pour actionner le moteur du vibreur (~ 200 mA max.). Un transistor 2N222 ou équivalent reçoit le signal et commande le vibreur.
 
 # Modélisation 3D du boîtier de la souris
-
+La modélisation a été faite avec Fusion 360. Les fichiers sont disponibles dans le dossier Modéles_3D
 
 # Logiciel de Gestion de la souris
 
@@ -126,7 +126,7 @@ Lorsqu’un programme fonctionne dans un boucle infinie, placez vous dans la fen
 
 # Cahier des charges logiciel
 
-Le logiciel doit émuler une souris « classique ». Les déplacement privilégiés sont en X et Y, des boutons poussoirs remplacent les boutons Droit et Gauche, ainsi que la roulette. Un bouton programmable permet de déclencher le lancement d’un programme particulier (NVDA, par exemple).
+Le logiciel écrit en Python doit émuler une souris « classique ». Les déplacement privilégiés sont en X et Y, des boutons poussoirs remplacent les boutons Droit et Gauche, ainsi que la roulette. Un bouton programmable permet de déclencher le lancement d’un programme particulier (NVDA, par exemple).
 Un retour haptique (vibreur) et sonore (buzzer) permettent de signaler certaine situations à l’utilisateur.  
 
 ## Bibliothèque utilisée
@@ -169,28 +169,6 @@ La position x=0, y=0 pour la souris est en haut à gauche de l'écran
 | Vibreur  |   | GP14  |                              
 | Buzzer  |   | GP15  |                              
                               
-                                 
-                         
-                          
-
-                          
-                           
-
-                            
-
-                   
-                     
-
-
-                                 
-                                
-                            
-                      
-                     
-
-                                             
-                                              
-
 A la mise sous tension les LEDs clignotent pour montrer que le programme démarre. Si l'utilisateur ne peut pas voir cette séquence, elle est utile pour la personne qui monte et teste la souris. De même le vibreur est actionné deux fois rapidement.
 
 Si le joystick est manipulé pour bouger la souris en diagonale, une vibration avertit l'utilisateur.
@@ -202,6 +180,38 @@ Par défaut elles sont programmées comme suit, de gauche à droite
 - Défilement roulette vers le haut
 - Défilement roulette vers le bas
 
+# Choix de la licence du logiciel embarqué
+Le Logiciel est publié sous licence MIT : _La licence MIT est une licence de logiciel pour logiciels libres1 et open source2, provenant de l'Institut de technologie du Massachusetts (MIT) à la fin des années 1980. Cette licence de logiciel permissive implique très peu de limitations sur la réutilisation du code et elle est ainsi compatible avec de nombreuses autres licences. 
+MIT License_ [source Wikipedia](https://fr.wikipedia.org/wiki/Licence_MIT)
 
+Copyright (c) 2024 FabLabUtoPi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:  
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.  
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+# Sécurité du logiciel embarqué
+Le logiciel n’ayant pas d’interaction avec les logisiels des autres machines, il n’apparait pas de problème de sécurité spécifique
+
+# Liens vers les composants (valable en septembre 2023)
+[Carte 8x2 cm pour le câblage des boutons](https://s.click.aliexpress.com/e/_DdNWyrd)
+[Boutons poussoirs avec LED intégrée](https://s.click.aliexpress.com/e/_DdBT0JN)
+[Vibreur pour le retour haptique](https://s.click.aliexpress.com/e/_DFjq7wf)
+[Joystick à 4 axes numériques (switch) sans bouton poussoir central](https://fr.aliexpress.com/item/1005001832652034.html)
+[Joystick à 4 axes numériques (switch) avec bouton poussoir central](https://s.click.aliexpress.com/e/_Dmqzrnh)
 
 
