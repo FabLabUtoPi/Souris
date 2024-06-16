@@ -82,15 +82,15 @@ La sortie GP14 du Raspberry Pi PICO ne peut pas fournir le courant nécessaire p
 # Choix du micrologiciel
 Le micro-logiciel installé sur la souris est Circuit Python. Python est le langage de programmation qui connaît la plus forte croissance. Il est enseigné dans les lycées et les universités. C'est un langage de programmation de haut niveau, ce qui signifie qu'il est conçu pour être facile à lire, à écrire et à maintenir. Il prend en charge les modules et les paquets, ce qui signifie qu'il est facile de réutiliser un code existant pour d'autres projets. Il dispose d'un interpréteur intégré, ce qui signifie qu'il n'y a pas d'étapes supplémentaires, comme la compilation, pour faire fonctionner le code qui a été écrit. De plus , Python est un logiciel libre, ce qui signifie que tout le monde peut l'utiliser, le modifier ou l'améliorer
 CircuitPython ajoute la prise en charge du matériel à toutes ces caractéristiques du langage Python. Si quelqu’un a déjà des connaissances en Python, il peut facilement les appliquer à l'utilisation de CircuitPython. Si l’utilisateur n'a aucune expérience préalable, il est très simple de commencer avec ce langage ! La version de Circuit Python est adaptée au modèle de carte à programmer. Dans notre cas c’est [la version 8.2.7](https://circuitpython.org/board/raspberry_pi_pico/)  qui était disponible pour le Raspberry Pi PICO au moment de la création du prototype. 
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_python.jpg" width="1000" height="700" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python.jpg" width="1000" height="700" />
 (source [circuitpython.org](https://circuitpython.org/))
 ## Installation de Circuit Python
 A partir de la page ci-dessus, sélectionnez la langue (French), et téléchargez le micrologiciel. Il est disponible au format .uf2. 
 Commencez avec le Raspberry Pi PICO débranché. Appuyez sur le bouton BOOTSEL du Raspberry Pi PICO et connectez la prise USB . Maintenez le bouton appuyé jusqu’à ce qu’une fenêtre RPI-RP2 s’ouvre sur le bureau. Relâchez le bouton BOOTSEL. On accède maintenant à la mémoire du Raspberry Pi PICO comme si c’était une clé USB.
 **Nota :** Cette opération n’aboutira pas si vous utilisez un câble de charge seule. Vérifiez bien que vous utilisez un câble de données. Si la fenêtre RPI-RP2 n’apparaît pas après un long moment, vérifiez les points indiqués et recommencez l’opération. 
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_python_02.jpg" width="1000" height="700" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_02.jpg" width="1000" height="700" />
 Ouvrez une fenêtre sur le dossier où est enregistré Circuit Python et faites le glisser dans la fenêtre RPI-RP2.
-<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_python_03.jpg" width="1000" height="357" />
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_03.jpg" width="1000" height="357" />
 
 
 
