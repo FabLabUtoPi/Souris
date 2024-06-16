@@ -74,12 +74,10 @@ Le câblage du joystick ne pose pas de problème particulier. Lorsque l’utilis
 La sortie GP14 du Raspberry Pi PICO ne peut pas fournir le courant nécessaire pour actionner le moteur du vibreur (~ 200 mA max.). Un transistor 2N222 ou équivalent reçoit le signal et commande le vibreur.
 
 # Modélisation 3D du boîtier de la souris
-La modélisation a été faite avec Fusion 360. Les fichiers sont disponibles dans le dossier Modéles_3D
+La modélisation a été faite avec Fusion 360. Les fichiers sont disponibles dans le dossier Modèles_3D
 
 # Logiciel de Gestion de la souris
-
-
-# Choix du micrologiciel
+## Choix du micrologiciel
 Le micro-logiciel installé sur la souris est Circuit Python. Python est le langage de programmation qui connaît la plus forte croissance. Il est enseigné dans les lycées et les universités. C'est un langage de programmation de haut niveau, ce qui signifie qu'il est conçu pour être facile à lire, à écrire et à maintenir. Il prend en charge les modules et les paquets, ce qui signifie qu'il est facile de réutiliser un code existant pour d'autres projets. Il dispose d'un interpréteur intégré, ce qui signifie qu'il n'y a pas d'étapes supplémentaires, comme la compilation, pour faire fonctionner le code qui a été écrit. De plus , Python est un logiciel libre, ce qui signifie que tout le monde peut l'utiliser, le modifier ou l'améliorer
 CircuitPython ajoute la prise en charge du matériel à toutes ces caractéristiques du langage Python. Si quelqu’un a déjà des connaissances en Python, il peut facilement les appliquer à l'utilisation de CircuitPython. Si l’utilisateur n'a aucune expérience préalable, il est très simple de commencer avec ce langage ! La version de Circuit Python est adaptée au modèle de carte à programmer. Dans notre cas c’est [la version 8.2.7](https://circuitpython.org/board/raspberry_pi_pico/)  qui était disponible pour le Raspberry Pi PICO au moment de la création du prototype. 
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python.jpg" width="1000" height="700" />
@@ -205,7 +203,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 # Sécurité du logiciel embarqué
-Le logiciel n’ayant pas d’interaction avec les logisiels des autres machines, il n’apparait pas de problème de sécurité spécifique
+Le logiciel n’ayant pas d’interaction avec les logiciels des autres machines, il n’apparait pas de problème de sécurité spécifique
 
 # Liens vers les composants (valable en septembre 2023)
 [Carte 8x2 cm pour le câblage des boutons](https://s.click.aliexpress.com/e/_DdNWyrd)
