@@ -206,10 +206,10 @@ SOFTWARE.
 Le logiciel n’ayant pas d’interaction avec les logiciels des autres machines, il n’apparait pas de problème de sécurité spécifique
 
 # Liens vers les composants (valable en septembre 2023)
-[Carte 8x2 cm pour le câblage des boutons](https://s.click.aliexpress.com/e/_DdNWyrd)
-[Boutons poussoirs avec LED intégrée](https://s.click.aliexpress.com/e/_DdBT0JN)
-[Vibreur pour le retour haptique](https://s.click.aliexpress.com/e/_DFjq7wf)
-[Joystick à 4 axes numériques (switch) sans bouton poussoir central](https://fr.aliexpress.com/item/1005001832652034.html)
-[Joystick à 4 axes numériques (switch) avec bouton poussoir central](https://s.click.aliexpress.com/e/_Dmqzrnh)
+[Carte 8x2 cm pour le câblage des boutons](https://s.click.aliexpress.com/e/_DdNWyrd)  
+[Boutons poussoirs avec LED intégrée](https://s.click.aliexpress.com/e/_DdBT0JN)  
+[Vibreur pour le retour haptique](https://s.click.aliexpress.com/e/_DFjq7wf)  
+[Joystick à 4 axes numériques (switch) sans bouton poussoir central](https://fr.aliexpress.com/item/1005001832652034.html)  
+[Joystick à 4 axes numériques (switch) avec bouton poussoir central](https://s.click.aliexpress.com/e/_Dmqzrnh)  
 
 
