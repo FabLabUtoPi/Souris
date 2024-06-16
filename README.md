@@ -88,7 +88,7 @@ CircuitPython ajoute la prise en charge du matériel à toutes ces caractéristi
 A partir de la page ci-dessus, sélectionnez la langue (French), et téléchargez le micrologiciel. Il est disponible au format .uf2. 
 Commencez avec le Raspberry Pi PICO débranché. Appuyez sur le bouton BOOTSEL du Raspberry Pi PICO et connectez la prise USB . Maintenez le bouton appuyé jusqu’à ce qu’une fenêtre RPI-RP2 s’ouvre sur le bureau. Relâchez le bouton BOOTSEL. On accède maintenant à la mémoire du Raspberry Pi PICO comme si c’était une clé USB.
 **Nota :** Cette opération n’aboutira pas si vous utilisez un câble de charge seule. Vérifiez bien que vous utilisez un câble de données. Si la fenêtre RPI-RP2 n’apparaît pas après un long moment, vérifiez les points indiqués et recommencez l’opération. 
-<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_02.jpg" width="850" height="360" />  
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_02.jpg" width="900" height="360" />  
 
 Ouvrez une fenêtre sur le dossier où est enregistré Circuit Python et faites le glisser dans la fenêtre RPI-RP2.  
 
