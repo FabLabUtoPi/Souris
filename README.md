@@ -96,7 +96,9 @@ Ouvrez une fenêtre sur le dossier où est enregistré Circuit Python et faites 
 Répondez OK à la demande du système.\
 
 <img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_04.jpg" width="800" height="380" /> 
-Le fichier est copié dans la mémoire du Raspberry Pi PICO. A la fin du transfert, la fenêtre RPI-RP2 disparaît et le Raspberry Pi PICO redémarre en utilisant circuit Python. La LED interne du Raspberry Pi PICO, située près de la prise USB, clignote une fois toutes les 5 secondes environ.\
+
+Le fichier est copié dans la mémoire du Raspberry Pi PICO. A la fin du transfert, la fenêtre RPI-RP2 disparaît et le Raspberry Pi PICO redémarre en utilisant circuit Python. La LED interne du Raspberry Pi PICO, située près de la prise USB, clignote une fois toutes les 5 secondes environ.  
+
 **Nota :** Si votre Raspberry Pi PICO se retrouve dans un état vraiment bizarre et ne s'affiche même pas comme un lecteur de disque lors de l'installation de CircuitPython, essayez d'installer le fichier .uf2 "nuke" qui fera un "nettoyage en profondeur" de votre mémoire flash. Vous perdrez tous les fichiers de la carte, mais au moins vous pourrez reprendre la main ! Après le nettoyage, réinstallez CircuitPython.  
 
 Lien vers le fichier de nettoyage [flash_nuke.uf2](https://cdn-learn.adafruit.com/assets/assets/000/099/419/original/flash_nuke.uf2?1613329170).  
