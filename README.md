@@ -180,7 +180,7 @@ Par défaut elles sont programmées comme suit, de gauche à droite
 
 # Choix de la licence du logiciel embarqué
 Le Logiciel est publié sous licence MIT : _La licence MIT est une licence de logiciel pour logiciels libres1 et open source2, provenant de l'Institut de technologie du Massachusetts (MIT) à la fin des années 1980. Cette licence de logiciel permissive implique très peu de limitations sur la réutilisation du code et elle est ainsi compatible avec de nombreuses autres licences. 
-MIT License_ [source Wikipedia](https://fr.wikipedia.org/wiki/Licence_MIT)
+MIT License_ [(source Wikipedia)](https://fr.wikipedia.org/wiki/Licence_MIT)
 
 Copyright (c) 2024 FabLabUtoPi
 
