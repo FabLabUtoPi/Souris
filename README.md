@@ -87,7 +87,7 @@ CircuitPython ajoute la prise en charge du matériel à toutes ces caractéristi
 ## Installation de Circuit Python
 A partir de la page ci-dessus, sélectionnez la langue (French), et téléchargez le micrologiciel. Il est disponible au format .uf2. 
 Commencez avec le Raspberry Pi PICO débranché. Appuyez sur le bouton BOOTSEL du Raspberry Pi PICO et connectez la prise USB . Maintenez le bouton appuyé jusqu’à ce qu’une fenêtre RPI-RP2 s’ouvre sur le bureau. Relâchez le bouton BOOTSEL. On accède maintenant à la mémoire du Raspberry Pi PICO comme si c’était une clé USB.  
-**Nota :** Cette opération n’aboutira pas si vous utilisez un câble de charge seule. Vérifiez bien que vous utilisez un câble de données. Si la fenêtre RPI-RP2 n’apparaît pas après un long moment, vérifiez les points indiqués et recommencez l’opération.\
+**Nota :** _Cette opération n’aboutira pas si vous utilisez un câble de charge seule. Vérifiez bien que vous utilisez un câble de données. Si la fenêtre RPI-RP2 n’apparaît pas après un long moment, vérifiez les points indiqués et recommencez l’opération._\
 <img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_02.jpg" width="900" height="360" />  
 
 Ouvrez une fenêtre sur le dossier où est enregistré Circuit Python et faites le glisser dans la fenêtre RPI-RP2.  
@@ -99,7 +99,7 @@ Répondez OK à la demande du système.\
 
 Le fichier est copié dans la mémoire du Raspberry Pi PICO. A la fin du transfert, la fenêtre RPI-RP2 disparaît et le Raspberry Pi PICO redémarre en utilisant circuit Python. La LED interne du Raspberry Pi PICO, située près de la prise USB, clignote une fois toutes les 5 secondes environ.  
 
-**Nota :** Si votre Raspberry Pi PICO se retrouve dans un état vraiment bizarre et ne s'affiche même pas comme un lecteur de disque lors de l'installation de CircuitPython, essayez d'installer le fichier .uf2 "nuke" qui fera un "nettoyage en profondeur" de votre mémoire flash. Vous perdrez tous les fichiers de la carte, mais au moins vous pourrez reprendre la main ! Après le nettoyage, réinstallez CircuitPython.  
+**Nota :** _Si votre Raspberry Pi PICO se retrouve dans un état vraiment bizarre et ne s'affiche même pas comme un lecteur de disque lors de l'installation de CircuitPython, essayez d'installer le fichier .uf2 "nuke" qui fera un "nettoyage en profondeur" de votre mémoire flash. Vous perdrez tous les fichiers de la carte, mais au moins vous pourrez reprendre la main ! Après le nettoyage, réinstallez CircuitPython._  
 
 Lien vers le fichier de nettoyage [flash_nuke.uf2](https://cdn-learn.adafruit.com/assets/assets/000/099/419/original/flash_nuke.uf2?1613329170).  
 
@@ -133,4 +133,47 @@ Un retour haptique (vibreur) et sonore (buzzer) permettent de signaler certaine 
 La bibliothèque utilisée pour émuler la souris et le clavier est la bibliothèque s’appelle adafruit_hid (HID = Human Interface Device). Téléchargez la bibliothèque sur la page Github [https://github.com/adafruit/Adafruit_CircuitPython_HID](https://github.com/adafruit/Adafruit_CircuitPython_HID), en cliquant sur le bouton vert CODE puis Download ZIP. Dézippez l’archive. Dans le dossier Adafruit_CircuitPython_HID-main créé lors de l’extraction de l’archive, copiez le dossier adafruit_hid qui contient la librairie pour gérer le clavier et la souris. Collez ce dossier dans le dossier lib du Raspberry Pi PICO.  
 
 <img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_11.jpg" width="900" height="360" /> 
+
+## Description du logiciel souris_v4.py - Rubrique Programmes
+Le logiciel de la souris est fourni sous licence open source MIT. 
+Les différentes connexions sont définies ainsi :
+
+ La position x=0, y=0 pour la souris est en haut à gauche de l'écran
+ Connexion des switchs
+ UP                   Souris vers le haut           GP12
+ DOWN                 Souris vers le bas            GP13
+ RIGHT                Souris vers la gauche         GP10
+ LEFT                 Souris vers la droite         GP11
+
+ GAUCHE               Appui bouton gauche           GP5
+ DROITE               Appui bouton droit            GP6
+
+ PROG                 Lancement programme           GP7
+
+ Wheel UP             Roulette vers le haut         GP8
+ Wheel DOWN           Roulette vers le bas          GP9
+
+ Connexion des LEDs
+ DROITE               Bouton droit                  GP0
+ GAUCHE               Bouton gauche                 GP1
+ PROG                 Lancement programme           GP2
+ Wheel UP             Roulette vers le haut         GP3
+ Wheel DOWN           Roulette vers le bas          GP4
+
+ Vibreur                                            GP14
+ Buzzer                                             GP15
+
+A la mise sous tension les LEDs clignotent pour montrer que le programme démarre. Si l'utilisateur ne peut pas voir cette séquence, elle est utile pour la personne qui monte et teste la souris. De même le vibreur est actionné deux fois rapidement.
+
+Si le joystick est manipulé pour bouger la souris en diagonale, une vibration avertit l'utilisateur.
+Les touches peuvent être programmées à la demande de l'utilisateur en fonction des logiciels qu'il utilise.
+Par défaut elles sont programmées comme suit, de gauche à droite
+- Bouton gauche de la souris (clic gauche)
+- Bouton droit de la souris (clic droit)
+- Ouverture du menu Windows
+- Défilement roulette vers le haut
+- Défilement roulette vers le bas
+
+
+
 
