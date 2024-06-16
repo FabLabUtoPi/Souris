@@ -1,8 +1,52 @@
 # Souris pilotée par joystick
+# MIT License
+
+# Copyright (c) 2024 FabLabUtoPi
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 # Licence MIT
+
+# Copyright (c) 2024 FabLabUtoPi
+
+# L'autorisation est accordée par la présente, gratuitement, à toute personne obtenant une copie de ce
+# logiciel et des fichiers de documentation associés (le "Logiciel"), de l'utiliser
+# sans restriction, y compris sans limitation d'utilisation, de copie, de modification, de fusion, 
+# de publication, de distribution, d'accorder des sous-licences et/ou de vendre des copies du logiciel.
+# et/ou de vendre des copies du logiciel, et d'autoriser les personnes à qui le logiciel est fourni
+# de le faire, sous réserve des conditions suivantes :
+
+# La licence ci-dessus et cet avis d'autorisation doivent être inclus dans toutes les
+# copies ou parties substantielles du logiciel.
+
+# LE LOGICIEL EST FOURNI "EN L'ETAT", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU
+# EXPLICITE OU IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE,
+# D'ADÉQUATION À UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS LES AUTEURS OU
+# LES AUTEURS OU LES DÉTENTEURS DE DROITS D'AUTEUR NE POURRONT ÊTRE TENUS POUR
+# RESPONSABLES D'UNE RÉCLAMATION, D'UN DOMMAGE OU D'UNE AUTRE RESPONSABILITÉ, 
+# QUE CE SOIT DANS LE CADRE D'UNE ACTION CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DE,
+# PROVENANT DE OU EN RELATION AVEC LE LOGICIEL OU AVEC SON UTILISATION 
+# OU D'AUTRES TRANSACTIONS LIEES AU LOGICIEL.
+
+
 # Références
-# Source https://docs.circuitpython.org/projects/hid/en/
-#               latest/_modules/adafruit_hid/mouse.html
+# Source https://docs.circuitpython.org/projects/hid/en/latest/_modules/adafruit_hid/mouse.html
 # https://docs.circuitpython.org/projects/hid/en/latest/api.html#adafruit_hid.mouse.Mouse
 #
 # Créé par le FabLab UtoPi Le Creusot
