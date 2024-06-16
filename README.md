@@ -111,4 +111,26 @@ L’installation et le démarrage sont un peu longs, soyez patient.
 Au premier démarrage, si la carte Raspberry Pi PICO n’est pas connectée, il faudra choisir le mode de fonctionnement Circuit Python pour Mu.  
 Si vous laissez la carte Raspberry Pi PICO, préparée avec Circuit Python, connectée, Mu la détecte et demande si vous voulez passer en mode Circuit Python. Répondez OUI.
 <img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_07.jpg" width="900" height="520" /> 
+Mu est prêt à être utilisé. On peut le tester avec un Hello World :  
+
+Cliquez sur l’icône Serial, dans la console tapez CTRL + B pour passer en mode REPL. Tapez le code   
+
+print(« Hello World ! »)  
+
+Quand vous tapez sur la touche ENTRÉE la commande est exécutée.  
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_08.jpg" width="900" height="122" />  
+
+Lorsqu’un programme fonctionne dans un boucle infinie, placez vous dans la fenêtre de la console Circuit Python REPL, puis tapez CTRL + C. Un message vous demande de taper sur une touche quelconque pour reprendre la main :  
+
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_09.jpg" width="900" height="230" />  
+
+# Cahier des charges logiciel
+
+Le logiciel doit émuler une souris « classique ». Les déplacement privilégiés sont en X et Y, des boutons poussoirs remplacent les boutons Droit et Gauche, ainsi que la roulette. Un bouton programmable permet de déclencher le lancement d’un programme particulier (NVDA, par exemple).
+Un retour haptique (vibreur) et sonore (buzzer) permettent de signaler certaine situations à l’utilisateur.  
+
+## Bibliothèque utilisée
+La bibliothèque utilisée pour émuler la souris et le clavier est la bibliothèque s’appelle adafruit_hid (HID = Human Interface Device). Téléchargez la bibliothèque sur la page Github [https://github.com/adafruit/Adafruit_CircuitPython_HID](https://github.com/adafruit/Adafruit_CircuitPython_HID), en cliquant sur le bouton vert CODE puis Download ZIP. Dézippez l’archive. Dans le dossier Adafruit_CircuitPython_HID-main créé lors de l’extraction de l’archive, copiez le dossier adafruit_hid qui contient la librairie pour gérer le clavier et la souris. Collez ce dossier dans le dossier lib du Raspberry Pi PICO.  
+
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_11.jpg" width="900" height="360" /> 
 
