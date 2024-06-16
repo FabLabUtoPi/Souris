@@ -138,27 +138,27 @@ La bibliothèque utilisée pour émuler la souris et le clavier est la biblioth�
 Le logiciel de la souris est fourni sous licence open source MIT. 
 Les différentes connexions sont définies ainsi :
 
- La position x=0, y=0 pour la souris est en haut à gauche de l'écran
- Connexion des switchs
- UP                   Souris vers le haut           GP12
- DOWN                 Souris vers le bas            GP13
- RIGHT                Souris vers la gauche         GP10
- LEFT                 Souris vers la droite         GP11
+La position x=0, y=0 pour la souris est en haut à gauche de l'écran
+Connexion des switchs
+UP                   Souris vers le haut           GP12
+DOWN                 Souris vers le bas            GP13
+RIGHT                Souris vers la gauche         GP10
+LEFT                 Souris vers la droite         GP11
 
- GAUCHE               Appui bouton gauche           GP5
- DROITE               Appui bouton droit            GP6
+GAUCHE               Appui bouton gauche           GP5
+DROITE               Appui bouton droit            GP6
 
- PROG                 Lancement programme           GP7
+PROG                 Lancement programme           GP7
 
- Wheel UP             Roulette vers le haut         GP8
- Wheel DOWN           Roulette vers le bas          GP9
+Wheel UP             Roulette vers le haut         GP8
+Wheel DOWN           Roulette vers le bas          GP9
 
- Connexion des LEDs
- DROITE               Bouton droit                  GP0
- GAUCHE               Bouton gauche                 GP1
- PROG                 Lancement programme           GP2
- Wheel UP             Roulette vers le haut         GP3
- Wheel DOWN           Roulette vers le bas          GP4
+Connexion des LEDs
+DROITE               Bouton droit                  GP0
+GAUCHE               Bouton gauche                 GP1
+PROG                 Lancement programme           GP2
+Wheel UP             Roulette vers le haut         GP3
+Wheel DOWN           Roulette vers le bas          GP4
 
  Vibreur                                            GP14
  Buzzer                                             GP15
