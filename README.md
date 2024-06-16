@@ -65,6 +65,12 @@ Le câblage des boutons poussoirs et des LEDs est ici représenté vu de dessous
 
 ### Câblage du joystick
 <img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/cablage_joystick.jpg" width="820" height="800" />
+*** Nota : *** ** En fonction de la position de montage du joystick, il faudra éventuellementadapter le programme. **
+Le câblage du joystick ne pose pas de problème particulier. Lorsque l’utilisateur pousse le manche du joystick dans une direction, le switch concerné établit un contact entre les bornes COM et NO.
+
+### Connexion du vibreur au Raspberry Pi PICO
+<img align="left" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/connexion_vibreur.jpg" width="1000" height="390" />
+La sortie GP14 du Raspberry Pi PICO ne peut pas fournir le courant nécessaire pour actionner le moteur du vibreur (~ 200 mA max.). Un transistor 2N222 ou équivalent reçoit le signal et commande le vibreur.
 
 
 
