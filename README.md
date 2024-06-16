@@ -93,7 +93,18 @@ Commencez avec le Raspberry Pi PICO débranché. Appuyez sur le bouton BOOTSEL d
 Ouvrez une fenêtre sur le dossier où est enregistré Circuit Python et faites le glisser dans la fenêtre RPI-RP2.  
 
 <img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_03.jpg" width="850" height="300" />  
+Répondez OK à la demande du système.\
 
-
-
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_04.jpg" width="800" height="380" /> 
+Le fichier est copié dans la mémoire du Raspberry Pi PICO. A la fin du transfert, la fenêtre RPI-RP2 disparaît et le Raspberry Pi PICO redémarre en utilisant circuit Python. La LED interne du Raspberry Pi PICO, située près de la prise USB, clignote une fois toutes les 5 secondes environ.
+**Nota : Si votre Raspberry Pi PICO se retrouve dans un état vraiment bizarre et ne s'affiche même pas comme un lecteur de disque lors de l'installation de CircuitPython, essayez d'installer le fichier .uf2 "nuke" qui fera un "nettoyage en profondeur" de votre mémoire flash. Vous perdrez tous les fichiers de la carte, mais au moins vous pourrez reprendre la main ! Après le nettoyage, réinstallez CircuitPython.**\
+Lien vers le fichier de nettoyage [flash_nuke.uf2](https://cdn-learn.adafruit.com/assets/assets/000/099/419/original/flash_nuke.uf2?1613329170).\
+# Installation de Mu
+Mu est un éditeur Python simple pour les débutants. C’est l’interface préconisé par Adafruit pour travailler avec Circuit Python.
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_06.jpg" width="900" height="814" /> 
+Rendez vous sur [la page de l’éditeur Mu](https://codewith.mu/) et téléchargez (Download) la version correspondant à votre système d’exploitation. Si vous êtes sous Windows, désinstallez les anciennes versions de Mu existant sur votre machine. Installez Mu sur votre machine.
+L’installation et le démarrage sont un peu longs, soyez patient.
+Au premier démarrage, si la carte Raspberry Pi PICO n’est pas connectée, il faudra choisir le mode de fonctionnement Circuit Python pour Mu.
+Si vous laissez la carte Raspberry Pi PICO, préparée avec Circuit Python, connectée, Mu la détecte et demande si vous voulez passer en mode Circuit Python. Répondez OUI.
+<img align="center" src="https://github.com/FabLabUtoPi/Souris/blob/main/images/circuit_Python_07.jpg" width="900" height="520" /> 
 
